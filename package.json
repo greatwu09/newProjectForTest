@@ -1,0 +1,19 @@
+{
+  "name": "blog-node",
+  "version": "1.0.0",
+  "description": "rocka's node blog",
+  "engines": {
+    "node": "6.3.1",
+    "npm": "3.10.3"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatwu09/newProjectForTest.git"
+  },
+  "author": "xxxtest",
+  "license": "MIT"
+}
