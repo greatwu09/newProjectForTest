@@ -3,7 +3,7 @@
 var http = require('http');
 var fs = require('fs');
 
-var server = http.createServer(request, response)
+var server = http.createServer(function(request, response)
     {
         console.log(request.method + ': ' + request.url);
         console.log("this is a log");
@@ -15,7 +15,7 @@ var server = http.createServer(request, response)
                 fs.createReadStream('./404.html').pipe(response);
             }
         };
-    };
+    });
 
 var serverPort = process.env.PORT || 5000;
 
